@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/borrowingservice/borrowingservice.iml" filepath="$PROJECT_DIR$/borrowingservice/borrowingservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonservice/commonservice.iml" filepath="$PROJECT_DIR$/commonservice/commonservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookservice/demo.iml" filepath="$PROJECT_DIR$/bookservice/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employeeservice/demo (1).iml" filepath="$PROJECT_DIR$/employeeservice/demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/notificationservice/demo (2).iml" filepath="$PROJECT_DIR$/notificationservice/demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/discoveryserver/discoveryserver/discoveryserver.iml" filepath="$PROJECT_DIR$/discoveryserver/discoveryserver/discoveryserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices.iml" filepath="$PROJECT_DIR$/.idea/microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apigateway/springcloud-gateway.iml" filepath="$PROJECT_DIR$/apigateway/springcloud-gateway.iml" />
+    </modules>
+  </component>
+</project>

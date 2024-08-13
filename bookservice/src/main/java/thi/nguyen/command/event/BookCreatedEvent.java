@@ -1,10 +1,13 @@
 package thi.nguyen.command.event;
 
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
+
 public class BookCreatedEvent {
+    @TargetAggregateIdentifier
     private String bookId;
     private String name;
     private String author;
-    private String isReady;
+    private Boolean isReady;
 
     public String getBookId() {
         return bookId;
@@ -30,12 +33,11 @@ public class BookCreatedEvent {
         this.author = author;
     }
 
-    public String getIsReady() {
+    public Boolean getReady() {
         return isReady;
     }
 
-    public void setIsReady(String isReady) {
-        this.isReady = isReady;
+    public void setReady(Boolean ready) {
+        isReady = ready;
     }
-
 }

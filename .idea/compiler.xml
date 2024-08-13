@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commonservice" />
+        <module name="springcloud-gateway" />
+        <module name="demo (2)" />
+        <module name="demo (1)" />
+        <module name="borrowingservice" />
+        <module name="discoveryserver" />
+        <module name="demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="borrowingservice" target="11" />
+      <module name="commonservice" target="16" />
+      <module name="demo" target="16" />
+      <module name="demo (1)" target="16" />
+      <module name="demo (2)" target="16" />
+      <module name="discoveryserver" target="16" />
+      <module name="springcloud-gateway" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="borrowingservice" options="-parameters" />
+      <module name="commonservice" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="discoveryserver" options="-parameters" />
+      <module name="springcloud-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,8 +1,11 @@
 package thi.nguyen.command.model;
 
 
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
+
 public class BookRequestModel {
 
+    @TargetAggregateIdentifier
     private String bookId;
     private String name;
     private String author;

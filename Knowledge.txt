@@ -1,0 +1,15 @@
+Điều hướng request 
+cân bằng tải
+Kafka : Messages -> EventBus
+ Phân phối message(Producer push -> Kafka Cluster -> push Consumer)
+ Lưu trữ dữ liệu
+ Phát sự kiện
+
+
+
+zookeeper-server-start.bat C:\A-IT\kafka_2.13-3.3.1\config\zookeeper.properties
+kafka-server-start.bat C:\A-IT\kafka_2.13-3.3.1\config\server.properties
+
+#Command kafka
+kafka-topics.bat --create --topic tanthanh --bootstrap-server localhost:9092
+kafka-topics.bat --list --bootstrap-server localhost:9092
